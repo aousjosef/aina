@@ -8,3 +8,4 @@ node_modules/
 .vscode/
 node_modules
 src/pages/Background/modules/gapi.json
+build
