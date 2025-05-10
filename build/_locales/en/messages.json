@@ -1032,5 +1032,13 @@
   "permissionsModalReview": {
     "message": "Review permissions",
     "description": "Review permissions button"
+  },
+  "addQuestionsButtonTitle": {
+    "message": "Add Questions",
+    "description": "Add questions button"
+  },
+  "addQuestionsButtonDescription": {
+    "message": "Add questions to the videos",
+    "description": "Add questions button description"
   }
 }

@@ -485,6 +485,29 @@ const RightPanel = () => {
                   <ReactSVG src={URL + "editor/icons/right-arrow.svg"} />
                 </div>
               </div>
+              <div
+                role="button"
+                className={styles.button}
+                onClick={() => {
+                  alert("add questions button pressed");
+                }}
+                disabled={false}
+              >
+                <div className={styles.buttonLeft}>
+                  <ReactSVG src={URL + "editor/icons/flag.svg"} />
+                </div>
+                <div className={styles.buttonMiddle}>
+                  <div className={styles.buttonTitle}>
+                    {chrome.i18n.getMessage("addQuestionsButtonTitle")}
+                  </div>
+                  <div className={styles.buttonDescription}>
+                    {chrome.i18n.getMessage("addQuestionsButtonDescription")}
+                  </div>
+                </div>
+                <div className={styles.buttonRight}>
+                  <ReactSVG src={URL + "editor/icons/right-arrow.svg"} />
+                </div>
+              </div>
             </div>
           </div>
           <div className={styles.section}>
